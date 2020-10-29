@@ -1,1 +1,2 @@
-prompt("hello");
+
+alert("hello");
