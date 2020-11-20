@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 (function(){
@@ -31,3 +32,6 @@
     });
 
 }())
+=======
+setTimeout(function(){ alert("Hello"); }, 3000);
+>>>>>>> be1202701eceaf9d72de32ae34e6325f93ee2180
