@@ -1,5 +1,6 @@
 
 
+
 (function(){
     let target=document.querySelector("#target");
     let bouton=document.querySelector("#clickMe");
@@ -31,3 +32,4 @@
     });
 
 }())
+
