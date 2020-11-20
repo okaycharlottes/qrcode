@@ -1,0 +1,58 @@
+// V A R I A B L E S * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+$degrade: radial-gradient(rgb(152, 139, 149), rgb(41, 45, 48));
+//MIXINS * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+@mixin AlignCenter {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+// C O D E   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+body {
+    @include AlignCenter();
+    height: 100vh;
+    width: 100vw;
+    background: $degrade;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    header{
+        @include AlignCenter();
+        width: 100%;
+        position: relative;
+        font-family: 'Indie Flower', cursive;
+
+        .custom-shape-divider-top-1605866903 {
+            position: relative;
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        h1{
+            z-index: 2;
+        }
+        
+        .custom-shape-divider-top-1605866903 svg {
+            position: relative;
+            display: block;
+            width: calc(159% + 1.3px);
+            height: 168px;
+        }
+        
+        .custom-shape-divider-top-1605866903 .shape-fill {
+            fill: #272525;
+        }
+
+        #clickMe{
+            border-radius: 20
+            
+        }
+        
+    }
+
+}
+
