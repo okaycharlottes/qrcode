@@ -6,8 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css ">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/style.css"/>
 
 </head>
 <body>
@@ -23,22 +26,35 @@
             </svg>
         </div>
 
-        <h1>Bienvenue...</h1>
+        <h1>Bienvenue<span>.</span><span>.</span><span>.</span></h1>
      </header>
 
     <!-- CORPS ************************************************************************************* -->
     <div id="classOne">
-        <article>
-            <input type="text" method="GET" value="Comment t'apelles-tu?"></article>
-        </article>
+        
+        <form action="index.php" method="post">
+            <label for="user">Mais... Qui es-tu?</label>
+            <input type="text" method="GET" name="user">
+            <input type="image" src="asset/heart-silhouette-f35580-original.svg" alt="OK!">
+        </form>
+            
+        
         <article id="target">
-            <button id="clickMe">Click Me</button>
+            <img src="asset/rabbit-silhouette-f35580-original.svg" alt="Suis le lapin...">
         </article>
     </div>
 
     
-
+    <!-- FOOTER ************************************************************************************ -->
+    <footer>
+            <ul>
+                <li>© 2020 Chattes Corporation</li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+    </footer>
     <!-- SCRIPT ************************************************************************************ -->
-    <script type="text/javascript" src="app.js"> </script>  
+    <script src="https://kit.fontawesome.com/c52a326ad1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="asset/app.js"> </script>  
 </body>
 </html>
